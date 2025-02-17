@@ -4,8 +4,8 @@ from scipy.spatial.distance import directed_hausdorff, cdist
 import matplotlib.pyplot as plt
 
 # Load the images
-image_1 = cv2.imread("first_test_copy/5.png")
-image_2 = cv2.imread("first_test_copy/15.png")
+image_1 = cv2.imread("circles/5.png")
+image_2 = cv2.imread("circles/15.png")
 
 
 # Convert to grayscale
